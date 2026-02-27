@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
-FILE_NAME = "students.xlsx"
+FILE_NAME = "students.txt"
 
 def add_student():
     sid = entry_id.get()
@@ -108,3 +108,4 @@ listbox.grid(row=6, column=0, columnspan=2, padx=10, pady=20)
 view_students()
 
 root.mainloop()
+
